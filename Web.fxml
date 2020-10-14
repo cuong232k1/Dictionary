@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.web.WebView?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0" prefWidth="798.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Web">
+    <center>
+        <WebView fx:id="webView" prefHeight="374.0" prefWidth="583.0" BorderPane.alignment="CENTER" />
+    </center>
+    <top>
+        <HBox prefHeight="24.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
+    </top>
+</BorderPane>
